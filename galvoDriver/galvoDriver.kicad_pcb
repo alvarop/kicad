@@ -2,10 +2,10 @@
 
   (general
     (links 54)
-    (no_connects 12)
+    (no_connects 0)
     (area 126.949999 78.054999 170.865001 109.270001)
     (thickness 1.6)
-    (drawings 12)
+    (drawings 13)
     (tracks 195)
     (zones 0)
     (modules 26)
@@ -74,8 +74,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010fc_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -95,9 +95,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory grb/))
   )
 
   (net 0 "")
@@ -948,6 +948,9 @@
     )
   )
 
+  (gr_text "defconbots galvo controller v2.0\nby @alvaroprieto\nalvarop.com\n" (at 149.86 83.82) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_text GND (at 130 98.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
