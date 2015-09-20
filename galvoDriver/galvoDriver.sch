@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:galvoDriver-rescue
 LIBS:alvarop
 LIBS:power
 LIBS:device
@@ -89,7 +90,7 @@ F 3 "" H 6600 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-galvoDriver R1
 U 1 1 55A29F9F
 P 5650 1200
 F 0 "R1" V 5730 1200 50  0000 C CNN
@@ -100,7 +101,7 @@ F 3 "" H 5650 1200 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R11
+L R-RESCUE-galvoDriver R11
 U 1 1 55A29FC6
 P 7300 2150
 F 0 "R11" V 7380 2150 50  0000 C CNN
@@ -111,7 +112,7 @@ F 3 "" H 7300 2150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L R-RESCUE-galvoDriver R9
 U 1 1 55A2A03F
 P 6750 700
 F 0 "R9" V 6830 700 50  0000 C CNN
@@ -122,7 +123,7 @@ F 3 "" H 6750 700 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-galvoDriver R6
 U 1 1 55A2A099
 P 6550 2550
 F 0 "R6" V 6630 2550 50  0000 C CNN
@@ -133,7 +134,7 @@ F 3 "" H 6550 2550 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-galvoDriver R3
 U 1 1 55A2A120
 P 5850 2150
 F 0 "R3" V 5930 2150 50  0000 C CNN
@@ -144,7 +145,7 @@ F 3 "" H 5850 2150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-galvoDriver R5
 U 1 1 55A2A15B
 P 6550 1900
 F 0 "R5" V 6630 1900 50  0000 C CNN
@@ -155,7 +156,7 @@ F 3 "" H 6550 1900 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-galvoDriver C1
 U 1 1 55A2AE13
 P 5800 3350
 F 0 "C1" H 5850 3450 50  0000 L CNN
@@ -320,7 +321,7 @@ F 3 "" H 6600 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-galvoDriver R2
 U 1 1 55A2D700
 P 5650 4500
 F 0 "R2" V 5730 4500 50  0000 C CNN
@@ -331,7 +332,7 @@ F 3 "" H 5650 4500 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R12
+L R-RESCUE-galvoDriver R12
 U 1 1 55A2D706
 P 7300 5450
 F 0 "R12" V 7380 5450 50  0000 C CNN
@@ -342,7 +343,7 @@ F 3 "" H 7300 5450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-galvoDriver R10
 U 1 1 55A2D70C
 P 6750 4000
 F 0 "R10" V 6830 4000 50  0000 C CNN
@@ -353,7 +354,7 @@ F 3 "" H 6750 4000 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-galvoDriver R8
 U 1 1 55A2D712
 P 6550 5850
 F 0 "R8" V 6630 5850 50  0000 C CNN
@@ -364,7 +365,7 @@ F 3 "" H 6550 5850 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-galvoDriver R4
 U 1 1 55A2D718
 P 5850 5450
 F 0 "R4" V 5930 5450 50  0000 C CNN
@@ -375,7 +376,7 @@ F 3 "" H 5850 5450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-galvoDriver R7
 U 1 1 55A2D71E
 P 6550 5200
 F 0 "R7" V 6630 5200 50  0000 C CNN
@@ -386,7 +387,7 @@ F 3 "" H 6550 5200 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-galvoDriver C2
 U 1 1 55A2D724
 P 5800 6650
 F 0 "C2" H 5850 6750 50  0000 L CNN
@@ -597,16 +598,12 @@ F 3 "" H 8900 5450 60  0000 C CNN
 $EndComp
 Connection ~ 5100 1200
 Wire Wire Line
-	4750 1200 5100 1200
-Wire Wire Line
-	5100 1200 5400 1200
+	4750 1200 5400 1200
 Connection ~ 5800 3100
 Wire Wire Line
 	5800 3150 5800 3100
 Wire Wire Line
-	5600 3100 5800 3100
-Wire Wire Line
-	5800 3100 6100 3100
+	5600 3100 6100 3100
 Wire Wire Line
 	7500 3200 7500 700 
 Wire Wire Line
@@ -623,9 +620,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 2550 6150 2400
 Wire Wire Line
-	5950 2550 6150 2550
-Wire Wire Line
-	6150 2550 6300 2550
+	5950 2550 6300 2550
 Connection ~ 6950 2550
 Wire Wire Line
 	6950 2450 6950 2550
@@ -634,23 +629,15 @@ Wire Wire Line
 Wire Wire Line
 	5850 2400 5850 2450
 Wire Wire Line
-	7100 3200 7300 3200
-Wire Wire Line
-	7300 3200 7500 3200
-Wire Wire Line
-	7500 3200 7800 3200
+	7100 3200 7800 3200
 Wire Wire Line
 	7300 2550 7300 3200
 Wire Wire Line
-	6800 2550 6950 2550
-Wire Wire Line
-	6950 2550 7300 2550
+	6800 2550 7300 2550
 Connection ~ 7300 1300
 Connection ~ 7300 1900
 Wire Wire Line
-	7100 1300 7300 1300
-Wire Wire Line
-	7300 1300 7800 1300
+	7100 1300 7800 1300
 Wire Wire Line
 	7300 1300 7300 1900
 Wire Wire Line
@@ -664,9 +651,7 @@ Wire Wire Line
 	5850 1400 6100 1400
 Connection ~ 6000 1200
 Wire Wire Line
-	5900 1200 6000 1200
-Wire Wire Line
-	6000 1200 6100 1200
+	5900 1200 6100 1200
 Wire Wire Line
 	4950 1450 4900 1450
 Wire Wire Line
@@ -687,16 +672,12 @@ Wire Wire Line
 	5950 3300 6100 3300
 Connection ~ 5100 4500
 Wire Wire Line
-	4750 4500 5100 4500
-Wire Wire Line
-	5100 4500 5400 4500
+	4750 4500 5400 4500
 Connection ~ 5800 6400
 Wire Wire Line
 	5800 6450 5800 6400
 Wire Wire Line
-	5600 6400 5800 6400
-Wire Wire Line
-	5800 6400 6100 6400
+	5600 6400 6100 6400
 Wire Wire Line
 	7500 6500 7500 4000
 Wire Wire Line
@@ -713,9 +694,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 5850 6150 5700
 Wire Wire Line
-	5950 5850 6150 5850
-Wire Wire Line
-	6150 5850 6300 5850
+	5950 5850 6300 5850
 Connection ~ 6950 5850
 Wire Wire Line
 	6950 5750 6950 5850
@@ -724,23 +703,15 @@ Wire Wire Line
 Wire Wire Line
 	5850 5700 5850 5750
 Wire Wire Line
-	7100 6500 7300 6500
-Wire Wire Line
-	7300 6500 7500 6500
-Wire Wire Line
-	7500 6500 7800 6500
+	7100 6500 7800 6500
 Wire Wire Line
 	7300 5850 7300 6500
 Wire Wire Line
-	6800 5850 6950 5850
-Wire Wire Line
-	6950 5850 7300 5850
+	6800 5850 7300 5850
 Connection ~ 7300 4600
 Connection ~ 7300 5200
 Wire Wire Line
-	7100 4600 7300 4600
-Wire Wire Line
-	7300 4600 7800 4600
+	7100 4600 7800 4600
 Wire Wire Line
 	7300 4600 7300 5200
 Wire Wire Line
@@ -754,9 +725,7 @@ Wire Wire Line
 	5850 4700 6100 4700
 Connection ~ 6000 4500
 Wire Wire Line
-	5900 4500 6000 4500
-Wire Wire Line
-	6000 4500 6100 4500
+	5900 4500 6100 4500
 Wire Wire Line
 	4950 4750 4900 4750
 Wire Wire Line
