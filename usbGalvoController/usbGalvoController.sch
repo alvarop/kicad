@@ -1,0 +1,161 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:STM32L151x6
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STM32L151x6 U?
+U 1 1 55FED439
+P 3800 1650
+F 0 "U?" H 4000 1900 60  0000 L CNN
+F 1 "STM32L151x6" H 4000 1800 60  0000 L CNN
+F 2 "" H 3800 1650 60  0000 C CNN
+F 3 "" H 3800 1650 60  0000 C CNN
+	1    3800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55FED571
+P 3350 3850
+F 0 "#PWR?" H 3350 3600 50  0001 C CNN
+F 1 "GND" H 3350 3700 50  0000 C CNN
+F 2 "" H 3350 3850 60  0000 C CNN
+F 3 "" H 3350 3850 60  0000 C CNN
+	1    3350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55FED5A1
+P 3350 2350
+F 0 "#PWR?" H 3350 2100 50  0001 C CNN
+F 1 "GND" H 3350 2200 50  0000 C CNN
+F 2 "" H 3350 2350 60  0000 C CNN
+F 3 "" H 3350 2350 60  0000 C CNN
+	1    3350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55FED5D1
+P 5700 1750
+F 0 "#PWR?" H 5700 1500 50  0001 C CNN
+F 1 "GND" H 5700 1600 50  0000 C CNN
+F 2 "" H 5700 1750 60  0000 C CNN
+F 3 "" H 5700 1750 60  0000 C CNN
+	1    5700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55FED5E8
+P 5700 2950
+F 0 "#PWR?" H 5700 2700 50  0001 C CNN
+F 1 "GND" H 5700 2800 50  0000 C CNN
+F 2 "" H 5700 2950 60  0000 C CNN
+F 3 "" H 5700 2950 60  0000 C CNN
+	1    5700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1750 5700 1750
+Wire Wire Line
+	5700 2950 5400 2950
+Wire Wire Line
+	3350 3850 3800 3850
+Wire Wire Line
+	3350 2350 3800 2350
+$Comp
+L +3.3V #PWR?
+U 1 1 55FED611
+P 5700 1650
+F 0 "#PWR?" H 5700 1500 50  0001 C CNN
+F 1 "+3.3V" H 5700 1790 50  0000 C CNN
+F 2 "" H 5700 1650 60  0000 C CNN
+F 3 "" H 5700 1650 60  0000 C CNN
+	1    5700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 55FED628
+P 5700 2850
+F 0 "#PWR?" H 5700 2700 50  0001 C CNN
+F 1 "+3.3V" H 5700 2990 50  0000 C CNN
+F 2 "" H 5700 2850 60  0000 C CNN
+F 3 "" H 5700 2850 60  0000 C CNN
+	1    5700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 55FED63F
+P 3700 3950
+F 0 "#PWR?" H 3700 3800 50  0001 C CNN
+F 1 "+3.3V" H 3700 4090 50  0000 C CNN
+F 2 "" H 3700 3950 60  0000 C CNN
+F 3 "" H 3700 3950 60  0000 C CNN
+	1    3700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 55FED656
+P 3650 2450
+F 0 "#PWR?" H 3650 2300 50  0001 C CNN
+F 1 "+3.3V" H 3650 2590 50  0000 C CNN
+F 2 "" H 3650 2450 60  0000 C CNN
+F 3 "" H 3650 2450 60  0000 C CNN
+	1    3650 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2450 3800 2450
+Wire Wire Line
+	3700 3950 3800 3950
+Wire Wire Line
+	5400 2850 5700 2850
+Wire Wire Line
+	5400 1650 5700 1650
+$EndSCHEMATC
