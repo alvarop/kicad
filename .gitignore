@@ -2,3 +2,8 @@
 *.bak
 *-bak
 grb
+gerber/
+_autosave-*
+_saved*
+*.zip
+*.bck
