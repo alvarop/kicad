@@ -1,0 +1,17 @@
+Quantity,Reference,Manufacturer,Manuf. Part #,Distributor,Distrib. Part #,Description,Unit Price,Extended
+2,"C1, C2",Samsung Electro-Mechanics America Inc.,CL21C200JBANNNC,Digi-Key,1276-1829-1-ND,CAP CER 20PF 50V NP0 0805,0.173,0.346
+5,"C3, C4, C5, C6, C7",Samsung Electro-Mechanics America Inc.,CL21F104ZBCNNNC,Digi-Key,1276-1007-1-ND,CAP CER 0.1UF 50V Y5V 0805,0.031,0.155
+2,"C8, C9",Samsung Electro-Mechanics America Inc.,CL21A106MQCLNNC,Digi-Key,1276-2407-1-ND,CAP CER 10UF 6.3V X5R 0805,0.105,0.21
+1,D1,OSRAM Opto Semiconductors Inc.,LH R974-LP-1,Digi-Key,475-1415-1-ND,LED RED DIFFUSED 0805 SMD,0.26,0.26
+1,P1,FCI,10118192-0001LF,Digi-Key,609-4613-1-ND,USB Micro-B Receptacle,0.46,0.46
+1,P2,Harwin Inc.,M20-9990646,Digi-Key,952-2270-ND,SIL VERTICAL PC TAIL PIN HEADER,0.23,0.23
+5,"P3, P4, P5, P6, P7",On Shore Technology Inc.,OSTVN02A150,Digi-Key,ED10561-ND,CONN TERM BLOCK 2.54MM 2POS PCB,0.58,2.9
+1,R1,Yageo,RC0805JR-07390RL,Digi-Key,311-390ARCT-ND,RES SMD 390 OHM 5% 1/8W 0805,0.018,0.018
+1,R2,Samsung Electro-Mechanics America Inc.,RC2012J103CS,Digi-Key,1276-5552-1-ND,RES SMD 10K OHM 5% 1/8W 0805,0.018,0.018
+1,R3,Samsung Electro-Mechanics America Inc.,RC2012J681CS,Digi-Key,1276-5527-1-ND,RES SMD 680 OHM 5% 1/8W 0805,0.018,0.018
+2,"R4, R5",Samsung Electro-Mechanics America Inc.,RC2012J220CS,Digi-Key,1276-5493-1-ND,RES SMD 22 OHM 5% 1/8W 0805,0.018,0.036
+1,R6,Samsung Electro-Mechanics America Inc.,RC2012J152CS,Digi-Key,1276-5533-1-ND,RES SMD 1.5K OHM 5% 1/8W 0805,0.018,0.018
+1,U1,STMicroelectronics,STM32L151C6T6,Digi-Key,497-11487-ND,Cortex-M3,4.46,4.46
+1,U2,STMicroelectronics,LD1117S33CTR,Digi-Key,497-1241-1-ND,IC REG LDO 3.3V 0.8A SOT223,0.51,0.51
+1,Y1,CTS-Frequency Controls,ATS08ASM-1E,Digi-Key,CTX1055CT-ND,Crystal 8.0000MHz 30ppm 20pF 60 Ohm,0.38,0.38
+,,,,,,,Total,10.019
