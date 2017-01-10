@@ -1,4 +1,4 @@
-update=Sunday, September 20, 2015 'AMt' 08:43:36 AM
+update=Tue 10 Jan 2017 06:08:08 AM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=../../kicad
@@ -59,3 +69,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=STM32L151x6
+LibName31=/home/alvaro/code/ostur/hw/ostur
+LibName32=alvarop
