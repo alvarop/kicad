@@ -6,4 +6,16 @@ K audio jack receptable stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
+$CMP Si7111EDN
+D -60A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
+K P-Channel MOSFET
+F http://www.vishay.com/docs/67807/si7111edn.pdf
+$ENDCMP
+#
+$CMP USB_C_Receptacle_NODIFFPAIRS
+D USB Full-Featured Type-C Receptacle connector
+K usb universal serial bus type-C full-featured
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
 #End Doc Library
