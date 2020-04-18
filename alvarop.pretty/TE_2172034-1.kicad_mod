@@ -1,4 +1,4 @@
-(module TE_2172034-1 (layer F.Cu) (tedit 5E784E77)
+(module TE_2172034-1 (layer F.Cu) (tedit 5E78F06D)
   (fp_text reference REF** (at 0 -2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -11,8 +11,8 @@
   (pad 3 thru_hole circle (at 0 0) (size 1.15 1.15) (drill 0.7) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 0.8 1.2) (size 1.15 1.15) (drill 0.7) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 1.6 0) (size 1.15 1.15) (drill 0.7) (layers *.Cu *.Mask))
-  (pad "" thru_hole oval (at -3.65 5.05) (size 1.5 2.6) (drill oval 0.7 2.1) (layers *.Cu *.Mask))
-  (pad "" thru_hole oval (at 3.65 5.05) (size 1.5 2.6) (drill oval 0.7 2.1) (layers *.Cu *.Mask))
+  (pad 6 thru_hole oval (at -3.65 5.05) (size 1.5 2.6) (drill oval 0.7 2.1) (layers *.Cu *.Mask))
+  (pad 6 thru_hole oval (at 3.65 5.05) (size 1.5 2.6) (drill oval 0.7 2.1) (layers *.Cu *.Mask))
   (model :ALVARO3D:c-2172034-1-a-3d.stp
     (offset (xyz 0 -8.800000000000001 2))
     (scale (xyz 1 1 1))
