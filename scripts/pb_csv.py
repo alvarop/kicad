@@ -39,13 +39,22 @@ with open(args.infile, "r") as infile:
             row.append(line["Footprint"].strip())
             row.append(line["Qty"].strip())
             row.append(line["MPN"].strip())
-            row.append(
-                line["Value"].strip()
-                + " "
-                + line["DKPN"].strip()
-                + " "
-                + line["Footprint"].strip()
-            )
+            if "DKPN" in line:
+                row.append(
+                    line["Value"].strip()
+                    + " "
+                    + line["DKPN"].strip()
+                    + " "
+                    + line["Footprint"].strip()
+                )
+            else:
+                row.append(
+                    line["Value"].strip()
+                    + " "
+                    + line["MPN"].strip()
+                    + " "
+                    + line["Footprint"].strip()
+                )
 
             writer.writerow(row)
             ids += 1
